@@ -51,3 +51,6 @@ On Windows:
 2. after configuration you may find several libraries not found, check the *Advanced* box and locate those missing libraries manually. Please make sure you have picked the libraries corresponding to the architecture you have selected (say, 32-bit libraries for x86, and 64-bit libraries for x64).
 3. click generate after fixing all missing variables to generate your Visual Studio solution.
 4. open the solution and compile the code.
+
+编译过程
+需要freeglut x86版本支持，所以先用vs2019 x86编译了freeglut，然后相应加入头文件和库文件，运行dll
